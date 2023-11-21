@@ -6,5 +6,6 @@ app.listen(8899, () => {
 })
 
 app.get("/api/welcome", (req, res, next) => {
+    console.log("/api/welcome");
     res.json({msg: "Welcome eiei"});
 });
